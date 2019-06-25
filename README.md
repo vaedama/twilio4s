@@ -1,4 +1,4 @@
-#twilio4s, an asychronous non-blocking Scala Twilio Client.
+# twilio4s, an asychronous non-blocking Scala Twilio Client.
 
 twilio4s is a wrapper over the [Twilio](https://www.twilio.com) [REST API](https://www.twilio.com/docs/usage/api). 
 
