@@ -60,7 +60,7 @@ twilio {
  
 There is currently an integration test that show how the library is intended to be used.
 
-- [Create a call resource]
+- [Create a call resource](https://github.com/vaedama/twilio4s/blob/master/src/it/scala/org/aedama/twilio4s/v1/voice/VoiceClientIT.scala)
 
 
 ### Formatting/Style Guide
