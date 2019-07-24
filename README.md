@@ -24,9 +24,9 @@ I am focusing on [programmable voice](https://www.twilio.com/voice) but pull req
 
 ## Usage
 
-Add your `ACCOUNT SID` and `AUTH TOKEN` as:
+Setup your `ACCOUNT SID` and `AUTH TOKEN`:
  
- 1. Either environment variables:
+ 1. Either via environment variables:
 
 ```
 export TWILIO_ACCOUNT_SID='my-account-sid'
@@ -35,15 +35,7 @@ export TWILIO_AUTH_TOKEN='my-auth-token'
 
 (or) 
 
-2.
-```
-
-    auth {
-      account.sid="my-account-sid"
-      token="my-auth-token"
-    }
-
-```
+2. Use `application.conf`
 
 ```
 twilio {

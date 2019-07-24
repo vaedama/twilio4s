@@ -18,4 +18,6 @@ addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.1.2")
 
 addSbtPlugin("com.lucidchart" % "sbt-scalafmt-coursier" % "1.15")
 
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.0.0")
+
 parallelExecution in Test := false
